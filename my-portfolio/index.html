@@ -1,0 +1,325 @@
+<html>
+
+<head>
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        #profile-image {
+            border-radius: 50%;
+        }
+
+        .static-width {
+            width: 100px;
+        }
+
+        .portfolio-logo {
+            background: url(images/profile_image.png) 50% no-repeat;
+            background-size: cover;
+            height: 150px;
+            border-radius: 50%;
+            width: 150px;
+            margin: 10px auto auto;
+        }
+
+        .title-name {
+            margin-top: 10px;
+        }
+
+        .mdl-layout__title {
+            font-size: 20px;
+            text-align: center;
+            margin: auto auto auto;
+        }
+
+        @media (min-width: 600px) {
+            .mdl-layout__margin {
+                margin-left: 0;
+            }
+        }
+
+        @media (min-width:768px) {
+            .mdl-layout__margin {
+                margin-left: 20%;
+            }
+        }
+
+        .card {
+            width: 700px;
+            padding: 20px 20px 0px 20px;
+        }
+
+        .mdl-card {
+            width: 100%;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        .center {
+            margin: 0 auto;
+        }
+
+        .content {
+            margin-top: 10px;
+        }
+
+        .mdl-layout__tab-bar {
+            background-color: rgb(54, 55, 56);
+
+        }
+
+        .mdl-layout__tab-bar-button {
+            background-color: rgb(54, 55, 56);
+        }
+
+        .mdl-layout__header {
+            background-color: rgb(54, 55, 56);
+        }
+
+        html {
+            background-color: #e6e2e2;
+        }
+
+        .mdl-list__item {
+            font-size: 15px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div style="height: 197px" class="mdl-layout__header-row">
+                <div class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span  class="mdl-layout-title title-name">Manmeet Singh</span>
+                </div>
+            </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-layout__margin">
+                <a href="#about" class="mdl-layout__tab is-active">About</a>
+                <a href="#summary" class="mdl-layout__tab">Summary</a>
+                <a href="#skills" class="mdl-layout__tab">Skills</a>
+                <a href="#projects" class="mdl-layout__tab">Projects</a>
+                <a href="#awards" class="mdl-layout__tab">Awards</a>
+                <a href="#education" class="mdl-layout__tab">Education</a>
+
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <div style="padding-left: 0px; margin: 0%" class="mdl-layout__title">
+                <div class="portfolio-logo"></div>
+                <span class="mdl-layout-title title-name">Manmeet Singh</span>
+            </div>
+            <nav class="mdl-navigation">
+                <a href="#about" class="mdl-navigation__link">About</a>
+                <a href="#summary" class="mdl-navigation__link">Summary</a>
+                <a href="#skills" class="mdl-navigation__link">Skills</a>
+                <a href="#projects" class="mdl-navigation__link">Projects</a>
+                <a href="#awards" class="mdl-navigation__link">Awards</a>
+                <a href="#education" class="mdl-navigation__link">Education</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <section class=" section--center card mdl-grid center mdl-layout__tab-panel is-active" id="about">
+                    <div class="mdl-card mdl-shadow--2dp page-content">
+                        <span class="mdl-layout-title">About</span>
+                        <span class="content">
+                            Hi, I am a Programmer, Learner, Dreamer, Designer, Tech Geek and... Marvel Studios Fan :)
+                            <b>"Living Life is an art, to learn you must live"</b>. Mostly my focus is to build something creative
+                            something unique but simple that can solve real world problems.
+                            <b>Sometimes you get success and sometimes... you learn lessions just remember both and keep on
+                                doing what makes you better.</b>
+                        </span>
+                    </div>
+                </section>
+                <section class=" section--center card mdl-grid center mdl-layout__tab-panel" id="summary">
+                    <div class="mdl-card mdl-shadow--2dp page-content">
+                        <span class="mdl-layout-title">Summary</span>
+                        <span class="content">
+                            Seeking the position to utilize my skills and abilities in the Computer and Information Technology industry that offers professional
+                            growth while being resourceful, innovative and flexible.
+
+                            <ul class="demo-list-icon mdl-list">
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">bookmark</i>
+                                        Working with TCS from February 2017 to till date.
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">bookmark</i>
+                                        Hands-on experience of Eclipse tool and Android studio for the development of Java and Android projects.
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">bookmark</i>
+                                        Hands-on experience with third-party libraries like Glide, Retrofit, Volley, Google APIs (Maps, Places etc.), AdMob integration.
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">bookmark</i>
+                                        Hands-on experience in Core Java, Servlets, JSP, JDBC, JavaScript, Ajax, JQuery.
+                                    </span>
+                                </li>
+
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">bookmark</i>
+                                        Published an application on Google Play Store
+                                        <br>
+                                        <a href="https://play.google.com/store/apps/details?id=com.singh.multimeet.quicxplo​">
+                                            https://play.google.com/store/apps/details?id=com.singh.multimeet.quicxplo​
+                                        </a>
+                                    </span>
+                                </li>
+
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">bookmark</i>
+                                        Hands-on experience with MEAN(MongoDB, Express.js, Angular, Node.js) stack Technologies.
+                                    </span>
+                                </li>
+
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">bookmark</i>
+                                        Cohesive team worker, having decent problem solving skills.
+                                    </span>
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
+
+                </section>
+                <section class=" section--center card mdl-grid center mdl-layout__tab-panel" id="skills">
+                    <div class="mdl-card mdl-shadow--2dp page-content">
+                        <span class="mdl-layout-title">Skills</span>
+                        <span class="content">
+                            These are my skills and Technologies that are worked with and having hands-on.
+                            <ul class="demo-list-icon mdl-list">
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">build</i>
+                                        Android SDK, Android Studio, MVP, MVVM, Retrofit, Room, Rx Java, Dagger2, Node.js, Angular4.
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">build</i>
+                                        Languages: JAVA, Python, HTML, CSS, JavaScript, PHP, C++.
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">build</i>
+                                        Operating System: windows 7/8/10, Linux/Unix, Mac OS.
+                                    </span>
+                                </li>
+
+                                <li class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-icon">build</i>
+                                        Databases : MySQL, Oracle, MongoDB.
+                                    </span>
+                                </li>
+                            </ul>
+                        </span>
+
+
+                    </div>
+                </section>
+                <section class=" section--center card mdl-grid center mdl-layout__tab-panel" id="projects">
+
+                    <div class="mdl-card mdl-shadow--2dp page-content">
+                        <span class="mdl-layout-title">Projects</span>
+                        <div class="content">
+                            These are the projects i worked with, most of them are live(Projects with * are live).
+                            <div class="mdl-grid">
+                                <div style="width: 46.5%" class="mdl-cell mdl-cell-col--6 mdl-card mdl-shadow--2dp">
+                                    <span class="mdl-layout-title">QuicXplo *</span>
+                                    <br>
+                                    <span>2017-Mar 2018</span>
+                                    <br> QuicXplo is a android file manager that let you perform all common operations like copy,
+                                    cut, delete, rename etc. It also gives you quick view to the files that are recently
+                                    added in your device. You can also access your media quickly by tapping on quick launch
+                                    icons.
+
+                                </div>
+
+                                <div style="width: 46.5%" class="mdl-cell mdl-cell-col--6 mdl-card mdl-shadow--2dp">
+                                    <span class="mdl-layout-title">Digitized Visitor Management System *</span>
+                                    <br>
+                                    <span>Jun 2017-Oct 2017</span>
+                                    <br> It's a web based application to handle the client visits. The main idea was to eliminate
+                                    all the paper work and minimize the time involved in process.
+                                </div>
+
+                                <div style="width: 46.5%" class="mdl-cell mdl-cell-col--6 mdl-card mdl-shadow--2dp">
+                                    <span class="mdl-layout-title">Android Application for teachers to manage Student Attendance</span>
+                                    <br>
+                                    <span>Jan 2016-Apr 2016</span>
+                                    <br> The main idea was to make the attendance process simpler for the organization and fast.
+                                    System sync with the teacher schedule and open specific intervals for taking attendance.
+                                    Teacher get notification for takling the attendance for every class that comes in his/her
+                                    schedule.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+                <section class=" section--center card mdl-grid center mdl-layout__tab-panel" id="awards">
+                    <div class="mdl-card mdl-shadow--2dp page-content">
+                        <span class="mdl-layout-title">Awards</span>
+                        <div class="content">
+
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell-col--12 mdl-card mdl-shadow--2dp">
+                                    <span class="mdl-layout-title">Special Recognition Award</span>
+                                    <br>
+                                    <span>In appreciation of your outstanding contribution in developing "Digitized Visitor Management
+                                        System".</span>
+                                    <br> Oct 2017 From TCS and New York Life Insurance
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                </section>
+                <section class=" section--center card mdl-grid center mdl-layout__tab-panel" id="education">
+                    <div class="mdl-card mdl-shadow--2dp page-content">
+                        <span class="mdl-layout-title">Eduction</span>
+                        <div class="content">
+
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell-col--12 mdl-card mdl-shadow--2dp">
+                                    <span class="mdl-layout-title">Bachelors in Science (Information Technology)</span>
+                                    <br>
+                                    <span>DAV College Jalandhar (Affilated from Guru Nanak Dev University)</span>
+                                    <br> 2013-2016
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                </div>
+
+
+        </main>
+        </div>
+</body>
+
+</html>
